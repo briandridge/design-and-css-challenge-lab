@@ -80,9 +80,9 @@ ul {
 }
 
 header {
-  background: header_bg.jpg;
-  height: 700px;
-
+  background-image: url('header_bg.jpg');
+  text-align: center;
+  
 }
 
 #headerlogo {
@@ -98,7 +98,7 @@ header {
   text-align: center;
   font-size: 24px;
   color: white;
-  margin: 200px auto;
+  
   font-weight: 600;
 }
 
@@ -113,17 +113,18 @@ header {
   width: 250px;
   height: 50px;
   font-weight: 800;
-
-}
+  }
 
 #benefits {
   background-color: #f0efef;
-  height: 600px;
-}
+  }
 
 #benefitstitle {
   font-size: 20px;
   font-weight: 600;
+  margin-top: 100px;
+  margin-left: 250px;
+  display: inline-block;
 }
 
 #benefitscopy {
@@ -135,11 +136,14 @@ header {
   font-size: 13px;
   font-weight: 300;
   list-style-type: disc;
+  margin: 60px auto 60px;
+  display: inline-block;
+
 }
 
 #testimonial {
-  background-image: url('testimonial_bg.jpg');
-  height: 400px;
+  background: url(../images/testimonial_bg.jpg);
+  width: auto;
   text-align: center;
   font-weight: 300;
 }
@@ -152,40 +156,42 @@ header {
   text-align: center;
   display: inline-block;
   margin-top: 80px;
+  color: white;
 }
 
 #name {
   font-weight: 600;
   font-size: 18px;
+  margin-top: 30px;
+  color: white;
 }
 
 #signup {
   background-color: #f9e42e;
-  height: 120px;
   text-align: center;
+  padding: 30px;
 
 }
 
 #button2 {
-  text-align: center;
   background-color: #033048;
   font-size: 12px;
   color: white;
   border-radius: 5px;
   border-style: none;
-  display: inline-block;
+  
   padding: 10px;
   width: 300px;
   font-weight: 800;
+  margin: auto;
+  display: block;
 
 }
 
 footer {
   text-align: center;
   background-color: #606161;
-  height: 350px;
   color: white;
-
 }
 
 #footerlogo {
@@ -194,6 +200,11 @@ footer {
   font-weight: 800;
 }
 
+
+
+/* put both in divs, margin 0 auto, width
+
+float/display these
 #twitter {
 
 }
@@ -201,6 +212,7 @@ footer {
 #facebook {
 
 }
+*/
 
 #copyright {
   font-weight: 600;
