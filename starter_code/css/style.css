@@ -51,8 +51,8 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);*/
+      /*background-size: cover;*/
 }
 
 h1 {
@@ -79,7 +79,7 @@ ul {
 }
 
 header {
-  background-image: url('header_bg.jpg');
+  background-image: url(../images/header_bg.jpg);
   background-size: cover;
   text-align: center;
 }
@@ -89,8 +89,8 @@ header {
   font-weight: 800;
   color: white;
   text-align: left;
-  margin-top: 40px;
-  margin-left: 120px;
+  padding-top: 40px;
+  padding-left: 120px;
 }
 
 #headline {
@@ -98,7 +98,7 @@ header {
   font-weight: 600;
   color: white;
   text-align: center;
-  margin-top: 180px;
+  margin-top: 160px;
 }
 
 #button1 {
@@ -112,7 +112,7 @@ header {
   text-decoration-style: bold;
   width: 250px;
   height: 50px;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 300px;
 }
 
@@ -207,24 +207,14 @@ footer {
 
 #social {
   text-align: center;
-  margin: 0px 640px;
-  
+  margin: 0px 640px;  
 }
 
-#twitter {
-  float: left;
-  width: 75px; 
-}
-
-#facebook {
-  float: left;
-  width: 75px;
-}
 
 #copyright {
   font-weight: 600;
   font-size: 9px;
-  padding-top: 100px;
+  padding-top: 30px;
   padding-bottom: 40px;
 }
 
